@@ -21,15 +21,6 @@ There are **no hardcoded destination fallbacks**. The only hardcoded domain data
 
 ## Important design choices
 
-### Removed emotion extraction
-
-This version intentionally removes the emotion/vibe extraction module. The workflow focuses on:
-
-- travel constraints;
-- user preferences and avoided terms;
-- RAG retrieval over user reviews;
-- real web search and enrichment.
-
 ### No fake fallback data
 
 If the system needs web data and `SERPAPI_API_KEY` is missing, the backend returns an error. It does **not** invent destinations, reviews, or photos.
@@ -292,31 +283,3 @@ You can explain the project as an agentic workflow because the system does not s
 The RAG memory represents personal/social experience data. The web search acts as a second source when the local memory is not enough.
 
 ---
-
-## Troubleshooting
-
-### `SERPAPI_API_KEY is missing`
-
-This is expected if you did not configure SerpApi. The project refuses to create fake web results.
-
-### `OPENAI_API_KEY is missing`
-
-OpenAI is used for Chroma embeddings. Seed the database only after setting the key.
-
-### spaCy model missing
-
-Run:
-
-```bash
-python -m spacy download en_core_web_sm
-```
-
-### RAG returns no results
-
-Check that you ran:
-
-```bash
-python scripts/seed_chroma.py
-```
-
-You can also inspect `backend/data/user_reviews_seed.json` and add more real user-review documents.
