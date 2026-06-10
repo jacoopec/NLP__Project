@@ -1,0 +1,119 @@
+[
+  {
+    "id": "review_001",
+    "place_name": "Cascate del Dardagna",
+    "document": "Cascate del Dardagna were incredible. We started from Bologna and went by train plus local bus, then walked through the woods. The hike was fresh, not too crowded in the morning, and perfect for a weekend nature escape.",
+    "metadata": {
+      "author": "local_user_01",
+      "rating": 5,
+      "address": "Lizzano in Belvedere, Emilia-Romagna, Italy",
+      "latitude": 44.1306,
+      "longitude": 10.8727,
+      "travel_notes": "Nature, waterfalls, hike. Public transport possible but requires planning."
+    }
+  },
+  {
+    "id": "review_002",
+    "place_name": "Lago di Suviana",
+    "document": "Lago di Suviana was a calm lake day from Bologna. We wanted water, fresh air and a simple walk. It felt relaxing and open, with picnic spots and some paths near the lake. Better if you avoid peak Sunday afternoon because it can become busy.",
+    "metadata": {
+      "author": "local_user_02",
+      "rating": 4.5,
+      "address": "Camugnano, Emilia-Romagna, Italy",
+      "latitude": 44.1243,
+      "longitude": 11.0381,
+      "travel_notes": "Lake, walking, relax."
+    }
+  },
+  {
+    "id": "review_003",
+    "place_name": "Dozza",
+    "document": "Dozza is a beautiful painted medieval village near Bologna. We went for a slow afternoon, street art, castle views and wine. It is a good choice if you want a borgo without going too far.",
+    "metadata": {
+      "author": "local_user_03",
+      "rating": 4.7,
+      "address": "Dozza, Emilia-Romagna, Italy",
+      "latitude": 44.3597,
+      "longitude": 11.6277,
+      "travel_notes": "Historic village, castle, wine, art."
+    }
+  },
+  {
+    "id": "review_004",
+    "place_name": "Rocchetta Mattei",
+    "document": "Rocchetta Mattei feels surprising and almost unreal. We visited from Bologna and loved the castle architecture. It is a strong option if you want wonder, history and an unusual place, but you should book the visit before going.",
+    "metadata": {
+      "author": "local_user_04",
+      "rating": 4.8,
+      "address": "Grizzana Morandi, Emilia-Romagna, Italy",
+      "latitude": 44.1825,
+      "longitude": 11.0678,
+      "travel_notes": "Castle, history, unusual architecture."
+    }
+  },
+  {
+    "id": "review_005",
+    "place_name": "Brisighella",
+    "document": "Brisighella was one of the nicest borghi we visited by train. The old streets, the clock tower and the fortress make it good for a full day trip. We also ate very well and the atmosphere was not chaotic.",
+    "metadata": {
+      "author": "local_user_05",
+      "rating": 4.6,
+      "address": "Brisighella, Emilia-Romagna, Italy",
+      "latitude": 44.2224,
+      "longitude": 11.7736,
+      "travel_notes": "Historic village, food, fortress, train-friendly."
+    }
+  },
+  {
+    "id": "review_006",
+    "place_name": "Parco Regionale dei Gessi Bolognesi e Calanchi dell'Abbadessa",
+    "document": "The Gessi Bolognesi park is close to Bologna and very good for hiking without taking the car. The trails, caves area and calanchi landscapes feel different from the city. Good when you want nature but not a long trip.",
+    "metadata": {
+      "author": "local_user_06",
+      "rating": 4.4,
+      "address": "San Lazzaro di Savena, Emilia-Romagna, Italy",
+      "latitude": 44.4366,
+      "longitude": 11.4213,
+      "travel_notes": "Hikes, nature, close to Bologna."
+    }
+  },
+  {
+    "id": "review_007",
+    "place_name": "Monte Sole Historical Park",
+    "document": "Monte Sole is a powerful place for a walk in the Apennines. It is not only nature: it has memory, silence and history. We went from Bologna for a reflective day hike and it was meaningful and intense.",
+    "metadata": {
+      "author": "local_user_07",
+      "rating": 4.3,
+      "address": "Marzabotto, Emilia-Romagna, Italy",
+      "latitude": 44.3145,
+      "longitude": 11.1943,
+      "travel_notes": "Hiking, history, nature."
+    }
+  },
+  {
+    "id": "review_008",
+    "place_name": "Comacchio",
+    "document": "Comacchio is great if you want canals, seafood and a different atmosphere from Bologna. It is not exactly a beach day, but the lagoon landscape and the old town are very photogenic. Better for a full day or weekend.",
+    "metadata": {
+      "author": "local_user_08",
+      "rating": 4.5,
+      "address": "Comacchio, Emilia-Romagna, Italy",
+      "latitude": 44.694,
+      "longitude": 12.1814,
+      "travel_notes": "Canals, food, lagoon, weekend."
+    }
+  },
+    {
+    "id": "review_009",
+    "place_name": "Barundi",
+    "document": "Barundi is a charming village with a rich history and beautiful landscapes. It's a great place to explore local culture and enjoy peaceful surroundings.",
+    "metadata": {
+      "author": "local_user_09",
+      "rating": 4.6,
+      "address": "Barundi, neverland, Italy",
+      "latitude": 44.694,
+      "longitude": 12.1814,
+      "travel_notes": "Canals, food, lagoon, weekend."
+    }
+  }
+]
